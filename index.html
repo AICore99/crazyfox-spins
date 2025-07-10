@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="https://play-lh.googleusercontent.com/KQfWlhq2UOesjeoAUPAFDOYD6sU-EQPEA9aZOOTr_pNxfdPMr2SK0pYBDI6d10Cnh5k=w240-h480-rw.png" type="image/png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crazy Fox Free Spins</title>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Luckiest Guy', cursive;
+      background: #fff5cc;
+      margin: 0;
+      padding: 0;
+      color: #8c2a02;
+    }
+    header {
+      position: relative;
+      background: url('https://ithawt.com/wp-content/uploads/2023/04/crazy-fox-free-spins-and-coins-1024x576.png') no-repeat center top;
+      background-size: cover;
+      height: 50vh;
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    header h1 {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 12px 30px;
+      border-radius: 12px;
+      font-size: 32px;
+      color: #ffffff;
+      animation: glow 2.5s ease-in-out infinite alternate;
+      transition: transform 0.3s ease-in-out;
+    }
+    header h1:hover {
+      transform: scale(1.05);
+    }
+    .fox-text {
+      color: #ff6600;
+      text-shadow: 0 0 5px #ff6600, 0 0 10px #ffa500;
+      animation: foxGlow 3s ease-in-out infinite alternate;
+    }
+    .fox-subtext {
+      color: #ff3300;
+      text-shadow: 0 0 5px #ff3300, 0 0 10px #ff0000;
+      animation: foxSubGlow 3s ease-in-out infinite alternate;
+    }
+    @keyframes foxGlow {
+      0% { text-shadow: 0 0 5px #ff6600, 0 0 10px #ffa500; }
+      100% { text-shadow: 0 0 10px #ffa500, 0 0 20px #ffcc00; }
+    }
+    @keyframes foxSubGlow {
+      0% { text-shadow: 0 0 5px #ff3300, 0 0 10px #ff3300; }
+      100% { text-shadow: 0 0 10px #ff3300, 0 0 20px #ff0000; }
+    }
+
+    .content {
+      max-width: 850px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .reward-day-box {
+      background: #fff2b3;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 15px rgba(255, 204, 0, 0.3);
+    }
+
+    .reward-date {
+      color: #d35400;
+      font-size: 26px;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .new-reward-box {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: #fffdf2;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      margin: 10px 0;
+      max-width: 600px;
+    }
+
+    .new-reward-box img {
+      width: 120px;
+      height: auto;
+      animation: spinPop 2s infinite ease-in-out;
+    }
+
+    .reward-amount {
+      font-size: 20px;
+      font-weight: bold;
+      color: #c0392b;
+      margin: 5px 0;
+    }
+
+    .new-btn-collect {
+      background: linear-gradient(to right, #f9d423, #ff4e50);
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      font-size: 16px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-family: 'Luckiest Guy', cursive;
+      animation: pulse 1.5s infinite;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 10px rgba(255, 78, 80, 0.4);
+    }
+
+    .new-btn-collect:hover {
+      transform: scale(1.1);
+    }
+
+    .new-btn-collect:disabled {
+      background: gray;
+      cursor: default;
+      animation: none;
+    }
+
+    .click-count {
+      font-size: 14px;
+      color: #5c3a00;
+      margin-top: 5px;
+    }
+
+    @keyframes spinPop {
+      0% { transform: scale(1) rotate(0deg); }
+      50% { transform: scale(1.05) rotate(3deg); }
+      100% { transform: scale(1) rotate(-3deg); }
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(255,153,0,0.4); }
+      70% { box-shadow: 0 0 0 10px rgba(255,153,0,0); }
+      100% { box-shadow: 0 0 0 0 rgba(255,153,0,0); }
+    }
+
+    /* Load More Button Styles */
+    #load-more-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #load-more-btn {
+        background: #f9d423;
+        border: none;
+        padding: 12px 25px;
+        color: #8c2a02;
+        font-size: 18px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-family: 'Luckiest Guy', cursive;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 4px 10px rgba(249, 212, 35, 0.4);
+        animation: loadMoreGlow 2s infinite alternate;
+    }
+
+    #load-more-btn:hover {
+        transform: scale(1.05);
+        background: #ffcc00;
+        box-shadow: 0 8px 15px rgba(249, 212, 35, 0.6);
+    }
+
+    #load-more-btn:active {
+        transform: translateY(2px) scale(1.03);
+        box-shadow: 0 2px 5px rgba(249, 212, 35, 0.4);
+    }
+
+    #load-more-btn:disabled {
+        background: #cccccc;
+        cursor: default;
+        box-shadow: none;
+        color: #666666;
+        animation: none;
+    }
+
+    @keyframes loadMoreGlow {
+        0% { box-shadow: 0 4px 10px rgba(249, 212, 35, 0.4); }
+        100% { box-shadow: 0 4px 15px rgba(249, 212, 35, 0.8), 0 0 5px rgba(255, 204, 0, 0.6); }
+    }
+
+    /* Tutorial & FAQ styles */
+    #tutorial-faq-container {
+      max-width: 850px;
+      margin: 40px auto 80px auto;
+      padding: 20px;
+      background: #fff9e6;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(255, 204, 0, 0.3);
+      color: #8c2a02;
+      font-size: 16px;
+    }
+
+    #tutorial-faq-container h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgba(255, 153, 0, 0.7);
+    }
+
+    #tutorial-faq-container ol {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    #tutorial-faq-container dl {
+      margin-top: 10px;
+      border-top: 1px solid #f2d680;
+      padding-top: 15px;
+    }
+
+    #tutorial-faq-container dt {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #c0392b;
+    }
+
+    #tutorial-faq-container dd {
+      margin-left: 20px;
+      margin-top: 5px;
+      color: #5c3a00;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 24px;
+        padding: 8px 15px;
+      }
+      .reward-date {
+        font-size: 20px;
+      }
+      .reward-amount {
+        font-size: 18px;
+      }
+      .new-reward-box img {
+        width: 90px;
+      }
+      .new-btn-collect {
+        font-size: 14px;
+        padding: 8px 15px;
+      }
+      #load-more-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><span class="fox-text">Crazy</span> <span class="fox-subtext">Fox</span> Free Spins & Coins</h1>
+	<script type="text/javascript">
+	atOptions = {
+		'key' : 'f77bf009f37c1af18a071c4c35824cb8',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/f77bf009f37c1af18a071c4c35824cb8/invoke.js"></script>
+  </header>
+
+  <div class="content" id="rewards-container"></div>
+  <div id="load-more-container" class="content" style="display: none;">
+    <button id="load-more-btn">Load More Old Rewards</button>
+  </div>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'f77bf009f37c1af18a071c4c35824cb8',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/f77bf009f37c1af18a071c4c35824cb8/invoke.js"></script>
+  <div class="content" id="tutorial-faq-container">
+    <section id="tutorial">
+      <h2>🎮 Crazy Fox Game Tutorial</h2>
+      <ol>
+        <li><strong>Start playing:</strong> Begin your Crazy Fox adventure by spinning for free spins and coins daily.</li>
+        <li><strong>Collect rewards:</strong> Use your free spins & coins to upgrade your gameplay.</li>
+        <li><strong>Complete missions:</strong> Progress through missions and unlock bonuses.</li>
+        <li><strong>Join events:</strong> Participate in special events to win rare prizes.</li>
+        <li><strong>Daily check-in:</strong> Don’t forget to collect your daily free spins and coins here!</li>
+      </ol>
+    </section>
+
+    <section id="faq" style="margin-top: 40px;">
+      <h2>❓ Frequently Asked Questions (FAQ)</h2>
+      <dl>
+        <dt><strong>Q1: How do I collect free spins and coins?</strong></dt>
+        <dd>A1: Click the “Collect Now” button next to the reward to open the official game page and claim your free spins and coins.</dd>
+
+        <dt><strong>Q2: Is this safe to use?</strong></dt>
+        <dd>A2: Yes, all links come from trusted official sources and are updated daily.</dd>
+
+        <dt><strong>Q3: Can I claim rewards for past days?</strong></dt>
+        <dd>A3: Yes, you can load more old rewards by clicking the "Load More Old Rewards" button.</dd>
+
+        <dt><strong>Q4: Why don’t I see rewards for today?</strong></dt>
+        <dd>A4: Rewards may update later during the day, please check back regularly.</dd>
+
+        <dt><strong>Q5: How often is this updated?</strong></dt>
+        <dd>A5: The rewards are updated automatically from the Google Sheet every time you load this page.</dd>
+      </dl>
+    </section>
+  </div>
+
+  <footer style="text-align: center; padding: 20px; background: #ffe066; font-weight: bold;">
+    © 2025 Crazy Fox Free Spins | <a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">Contact</a>
+  </footer>
+
+  <script>
+    // CSV URL from your Google Sheet published as CSV
+    const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRiNZqmzXz8jbsmMpwvXzbHWaqtzJFvs6s0oLkC1IgtFaL4kiCdgWz8ReokJk8cmf5Du8tyc63DYUq6/pub?output=csv';
+    
+    let allRewards = [];
+    let displayedRewardCount = 0;
+    const rewardsPerLoad = 2;
+
+    // Format coins with M suffix if >= 1 million
+    function formatCoins(coinsStr) {
+      // Remove commas if any, parse as number
+      let num = Number(coinsStr.replace(/,/g, '').toUpperCase().replace('M','000000'));
+      if (isNaN(num)) return coinsStr;
+
+      if (num >= 1_000_000) {
+        let millions = num / 1_000_000;
+        // Show with no decimals if whole number, else 1 decimal
+        if (Number.isInteger(millions)) return millions + 'M';
+        else return millions.toFixed(1) + 'M';
+      }
+      return coinsStr;
+    }
+
+    async function fetchRewards() {
+      try {
+        const res = await fetch(sheetUrl);
+        if (!res.ok) throw new Error("Fetch failed");
+        const text = await res.text();
+
+        const rows = text.trim().split('\n').slice(1); // skip header
+        allRewards = rows.map(row => {
+          const cols = row.split(',');
+          if (cols.length < 4) return null;
+          const spins = parseInt(cols[0]);
+          const coinsRaw = cols[1].trim();
+          const coins = formatCoins(coinsRaw);
+          const date = cols[2].trim();
+          const link = cols[3].trim();
+          return { spins, coins, date, link };
+        }).filter(r => r !== null);
+
+        // Sort rewards by date descending
+        allRewards.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+        renderInitialRewards();
+      } catch (e) {
+        document.getElementById('rewards-container').innerHTML = "<p style='text-align:center; color: red;'>Unable to load rewards. Please try again later.</p>";
+      }
+    }
+
+    function getDateLabel(dateStr) {
+      const rewardDate = new Date(dateStr);
+      const today = new Date();
+      const yesterday = new Date();
+      yesterday.setDate(today.getDate() - 1);
+      const twoDaysAgo = new Date();
+      twoDaysAgo.setDate(today.getDate() - 2);
+
+      function zeroTime(d) {
+        return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+      }
+
+      const rewardZero = zeroTime(rewardDate).getTime();
+      const todayZero = zeroTime(today).getTime();
+      const yesterdayZero = zeroTime(yesterday).getTime();
+      const twoDaysAgoZero = zeroTime(twoDaysAgo).getTime();
+
+      if (rewardZero === todayZero) return "Today";
+      if (rewardZero === yesterdayZero) return "Yesterday";
+      if (rewardZero === twoDaysAgoZero) return "Two Days Ago";
+
+      return rewardDate.toLocaleDateString();
+    }
+
+    function groupRewardsByDate(rewards) {
+      const grouped = {};
+      rewards.forEach(r => {
+        const label = getDateLabel(r.date);
+        if (!grouped[label]) grouped[label] = [];
+        grouped[label].push(r);
+      });
+      return grouped;
+    }
+
+    function renderRewards(rewardsToRender) {
+      const container = document.getElementById('rewards-container');
+      const grouped = groupRewardsByDate(rewardsToRender);
+
+      // Sort keys with Today, Yesterday, Two Days Ago first, then date desc
+      const keys = Object.keys(grouped);
+      keys.sort((a, b) => {
+        const order = { "Today": 0, "Yesterday": 1, "Two Days Ago": 2 };
+        if (order[a] !== undefined && order[b] !== undefined) return order[a] - order[b];
+        if (order[a] !== undefined) return -1;
+        if (order[b] !== undefined) return 1;
+        return new Date(b) - new Date(a);
+      });
+
+      keys.forEach(dateLabel => {
+        const dayBox = document.createElement('div');
+        dayBox.className = 'reward-day-box';
+
+        let dayHTML = `<h2 class="reward-date">${dateLabel}</h2>`;
+        grouped[dateLabel].forEach(r => {
+          dayHTML += `
+            <div class="new-reward-box">
+              <img src="https://i.imgur.com/xZmTozG.png" alt="${r.spins} Spins & ${r.coins} Coins" />
+              <div>
+                <p class="reward-amount">${r.spins} Spins & ${r.coins} Coins</p>
+                <button class="new-btn-collect" onclick="handleCollect(this, '${r.link}')">🎁 Collect Now</button>
+                <p class="click-count">Not clicked</p>
+              </div>
+            </div>
+          `;
+        });
+
+        container.appendChild(dayBox);
+        dayBox.innerHTML = dayHTML;
+      });
+    }
+
+    function renderInitialRewards() {
+      const container = document.getElementById('rewards-container');
+      container.innerHTML = '';
+
+      const uniqueDates = [...new Set(allRewards.map(r => r.date))];
+      // Show only latest 3 days (or 3 unique dates)
+      const latestDates = uniqueDates.slice(0, 3);
+      const initialRewards = allRewards.filter(r => latestDates.includes(r.date));
+
+      renderRewards(initialRewards);
+
+      // Store older rewards for load more
+      window.remainingOlderRewards = allRewards.filter(r => !latestDates.includes(r.date));
+      displayedRewardCount = 0;
+
+      if (window.remainingOlderRewards.length > 0) {
+        document.getElementById('load-more-container').style.display = 'block';
+        updateLoadMoreButton();
+      } else {
+        document.getElementById('load-more-container').style.display = 'none';
+      }
+    }
+
+    function updateLoadMoreButton() {
+      const btn = document.getElementById('load-more-btn');
+      if (displayedRewardCount >= window.remainingOlderRewards.length) {
+        btn.disabled = true;
+        btn.textContent = "No More Old Rewards";
+      } else {
+        btn.disabled = false;
+        btn.textContent = "Load More Old Rewards";
+      }
+    }
+
+    document.getElementById('load-more-btn').addEventListener('click', () => {
+      const container = document.getElementById('rewards-container');
+
+      // Find oldest date currently rendered
+      const renderedDates = Array.from(document.querySelectorAll('.reward-date')).map(el => el.textContent);
+      const olderRewards = window.remainingOlderRewards.filter(r => {
+        const label = getDateLabel(r.date);
+        return !renderedDates.includes(label);
+      });
+
+      // Load next rewardsPerLoad unique dates' rewards
+      const uniqueOlderDates = [...new Set(olderRewards.map(r => r.date))].slice(0, rewardsPerLoad);
+      const nextBatch = allRewards.filter(r => uniqueOlderDates.includes(r.date));
+
+      if(nextBatch.length > 0) {
+        renderRewards(nextBatch);
+      }
+
+      displayedRewardCount += nextBatch.length;
+
+      updateLoadMoreButton();
+    });
+
+    function handleCollect(button, url) {
+      const parentDiv = button.parentElement;
+      const clickCountP = parentDiv.querySelector('.click-count');
+      let clicks = parseInt(clickCountP.getAttribute('data-clicks') || '0');
+      clicks++;
+      clickCountP.setAttribute('data-clicks', clicks);
+      clickCountP.textContent = `Clicked ${clicks} time${clicks > 1 ? 's' : ''}`;
+
+      // Open the link in a new tab
+      window.open(url, '_blank');
+
+      // Disable button after click to prevent abuse
+      button.disabled = true;
+      button.textContent = "Collected";
+    }
+
+    fetchRewards();
+  </script>
+<script type='text/javascript' src='//pl27099326.profitableratecpm.com/a9/6d/40/a96d40e2346b8e81135462c44f3b94c2.js'></script>
+</body>
+</html>
